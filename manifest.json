@@ -1,9 +1,12 @@
 {
   "manifest_version": 3,
   "name": "AmoTube (AMOLED YouTube)",
-  "version": "2.1.1",
+  "short_name": "AmoTube",
+  "version": "2.2.0",
   "author": "lucmsilva651@gmail.com",
-  "description": "Chrome extension that makes YouTube AMOLED.",
+  "incognito": "split",
+  "homepage_url": "https://github.com/lucmsilva651/AmoTube",
+  "description": "A browser extension that makes YouTube AMOLED and adds some more features. Good for your eyes, good for your screen.",
   "update_url": "https://raw.githubusercontent.com/lucmsilva651/amotube/main/updates.xml",
   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqch+FOiEwquraKO0VcCW0VuYQZ9epFnGtg/wYUYhwE6Qa7AstRlDka6tEGt9lYG2D58rIGHsyTW4hznG2QIgmMWE2TdU+AM9n86n0eJzHhrUTVCg1m65xxdaq+DpYBdCLkUKo53HmJ6fw1KMwC+Q0vpULTI9qwvdp2WxZKB8/C4G3gMVez//0I4+mOAa7PApNX+MH0n9PmFh+p2i/+TIynDp5IHvKwfn9zVYrFI8ppFp5lj/q+1HgKcCejK7Cf49KkzVjNFn6rJ0hodP6UZT+P9sJqpRtJbCApMdco0gdiQsl48TuWelhzk6e14t5KA6WdsB3DEITRzc0I6Gv095zwIDAQAB",
   "icons": {
