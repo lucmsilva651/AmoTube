@@ -62,7 +62,7 @@ A browser extension that makes YouTube AMOLED and adds some more features. Good 
 <summary>Screenshot 1 (YouTube Home Page)</summary>
   <br>
 
-![](https://telegra.ph/file/649e1a03c2ddbc8d7fee5.jpg)
+![alt text](assets/home.png)
 
 </details>
 
@@ -70,10 +70,10 @@ A browser extension that makes YouTube AMOLED and adds some more features. Good 
   <summary>Screenshot 2 (YouTube Video Page)</summary>
   <br>
 
-![](https://telegra.ph/file/457d96c874e42fcb6c0c3.jpg)
+![alt text](assets/video.png)
 
 </details>
 
 ## License
 
-2025 Lucas Gabriel (lucmsilva) - [BSD 3-Clause License](LICENSE).
+2024-2026 Lucas Gabriel (lucmsilva) - [BSD 3-Clause License](LICENSE).
