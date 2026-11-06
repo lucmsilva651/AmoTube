@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "GSF";
+  src: url("chrome-extension://__MSG_@@extension_id__/src/GoogleSansFlex-VariableFont_ROND,opsz,slnt,wdth,wght.ttf") format("truetype");
+  font-weight: 1 1000;
+  font-stretch: 25% 151%;
+  font-style: oblique 0deg 10deg;
+  font-display: swap;
+}
+
+:root {
+  --gsf-rond: 0;
+}
+
 html,
 body,
 ytd-app,
@@ -8,6 +21,18 @@ ytd-app,
   backdrop-filter: none !important;
 }
 
-/* * {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
-} */
+*,
+*::before,
+*::after {
+  font-family: "GSF", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-synthesis: none !important;
+  font-variation-settings: "ROND" var(--gsf-rond) !important;
+}
+
+code,
+pre,
+kbd,
+samp {
+  font-family: ui-monospace, monospace !important;
+}

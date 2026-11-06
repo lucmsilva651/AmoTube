@@ -13,6 +13,12 @@
     "128": "assets/icon128.png",
     "500": "assets/icon500.png"
   },
+  "web_accessible_resources": [
+    {
+      "resources": ["src/GoogleSansFlex-VariableFont_ROND,opsz,slnt,wdth,wght.ttf"],
+      "matches": ["*://*.youtube.com/*"]
+    }
+  ],
   "content_scripts": [
     {
       "matches": ["*://*.youtube.com/*"],
